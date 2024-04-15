@@ -1,0 +1,449 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(images/bg.gif);
+  object-fit: cover;
+
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  text-align: right;
+  margin-top: 20px;
+}
+
+nav a {
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+nav a:hover {
+  background-color: #2980b9;
+}
+
+header {
+  text-align: center;
+  padding-top: 10px;
+  padding: 20px 0;
+}
+
+/* Style for my Passcode */
+.passcode-body{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 2%;
+  font-family: 'Brush Script MT', cursive;
+  color:palevioletred;
+  font-size: xx-large;
+
+}
+.passcode-body h1{
+  color:palevioletred;
+}
+.passcode-body button{
+ 
+    width: 20%;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #b8b5b3;
+    color: #282c34;
+  }
+
+
+
+#porfolio{
+  display: none;
+}
+#passcode-container{
+  text-align: center;
+  border: 5px solid wheat; 
+  padding: 50px;
+  background-color: rgba(red, green, blue);
+  border-style: solid;
+  border-color: aqua;
+ 
+}
+h1{
+  color: beige;
+}
+/* Style for my Profile */
+
+.personal-background h2{
+  color: beige;
+  text-decoration-line: underline; 
+  
+}
+.card1 {
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 315px;
+  font-family: arial;
+ 
+}
+
+h3{
+  color: beige;
+  text-decoration-line: underline; 
+}
+.card1 h1{
+  color: beige;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+p{
+  color: aliceblue;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+img{
+  float: left;
+  margin-right: 15px;
+  margin-left: 45px;
+  height: 100%;
+}
+
+/* social icons for my profile */
+.social {
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+
+.social img {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+
+
+/* Style for my Schools */
+.school {
+  text-align: center;
+  margin-top: 70px;
+
+}
+.school-head {
+  color: beige;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-decoration-line: underline; 
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.card img {
+  margin-bottom: 10px;
+  border-radius: 100%; /* Adjust the margin as needed */
+}
+
+/* Style for my Hobbies section */
+  
+.hobbies {
+  text-align: center;
+  margin-top: 70px;
+  color: aliceblue;
+}
+
+.hobbies-head {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-decoration-line: underline; 
+}
+
+.hobby {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  text-align: center;
+   
+}
+.hobby h2{
+  text-decoration-line: underline;
+}
+.hobby img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+
+.hobby p {
+  font-size: 14px;
+  color: aliceblue;
+}
+
+
+
+/* style for my Talent section */
+.talent {
+  
+  padding: 30px;
+}
+
+.talent-head {
+  color: beige;
+  text-decoration-line: underline; 
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-decoration-line: underline; 
+}
+
+
+.talent-item {
+  display: inline-block;
+  margin: 0 20px 20px 0;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.talent-item img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 20%;
+}
+
+.talent-item h2 {
+ 
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.talent-item p { 
+  font-size: 14px;
+}
+
+
+/* Style for my Gallery */ 
+
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mySlides {
+  display: none;
+  text-align: center;
+}
+
+
+.title-gallery {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: pink;
+}
+.header h1{
+  padding-top: 5%;
+  text-align: center;
+  text-decoration: line-through;
+  color: beige; 
+  font-family: 'Times New Roman', Times, serif;
+}
+.description {
+  font-size: 14px;
+  margin-top: 5px;
+  color: white;
+}
+
+/* Styles for navigation buttons for my Gallery */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Style on hover for my Gallery */
+.prev:hover, .next:hover {
+  background-color: rgba(224, 45, 162, 0.8);
+}
+h4{
+  color: beige;
+}
+
+.gallery {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px 0;
+  overflow: hidden;
+}
+
+.gallery img {
+  max-width: 80%;
+  height: auto;
+  padding-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* My calculator style */
+.calculator {
+  width: 300px;
+  background-color: #ee83c3;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+  margin-left: 40%;
+}
+
+.calculator-title {
+  text-align: center;
+  color: #333;
+}
+.calculator h2 {
+    color: purple;
+    font-family: 'Brush Script MT', cursive;
+    font-size: xx-large;
+    text-decoration: underline;
+
+  }
+
+#display {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: right;
+}
+
+.buttons1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #61dafb;
+  color: #282c34;
+}
+
+.operator {
+  background-color: #3498db;
+}
+
+.special {
+  background-color: #e74c3c;
+}
+
+.equal {
+  background-color: #2ecc71;
+}
+
+.dot {
+  background-color: #3498db;
+}
+
+button:hover {
+  background-color: #45aaf2;
+}
+
+/* Arrow button */
+.arrow-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+.arrow-button a {
+  text-decoration: none;
+}
+
+.arrow-button img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.arrow-button a:hover img {
+  transform: scale(1.2);
+}
+
+.responsive {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+
+
+
